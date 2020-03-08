@@ -1,0 +1,41 @@
+<!-- 
+
+    main editor part write with alireza azizi in willaarts coporation
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="include/bootstrap.min.css">
+    <link rel="stylesheet" href="css/codemirror.css">
+    <link rel="stylesheet" href="css/dracula.css">
+    <link rel="stylesheet" href="css/editor.css">
+</head>
+
+<body>
+    <script src="./include/jquery-3.4.1.min.js"></script>
+    <script src="./include/bootstrap.min.js"></script>
+    <script src="./js/editor.js"></script>
+    <script src="js/codemirror.js"></script>
+    <script src="js/xml.js"></script>
+    <script src="js/css.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/htmlmixed.js"></script>
+    <script src="js/matchbrackets.js"></script>
+    <script>
+    // editor.setOption('theme' , 'dracula');
+    </script>
+</body>
+
+</html>
+<!-- 
+    ----------  HELP GUILD  ----------
+    style s help 
+
+    [0] (#save-editable) can access change styles 
+
+ -->
