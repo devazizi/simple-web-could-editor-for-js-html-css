@@ -92,14 +92,22 @@ window.Editor = function() {
 
     // editor tools for [ save ] [ remove ]
     var tools = document.createElement('div');
-    var toolsOption = ['col-xs-12', 'col-sm-12', 'col-md-12', 'col-lg-12'];
+    var toolsOption = [
+                        'col-xs-6',
+                        'col-sm-6',
+                        'col-md-4',
+                        'col-lg-4',
+                        'col-xs-offset-3',
+                        'col-sm-offset-3',
+                        'col-md-offset-4',
+                        'col-lg-offset-4'];
     toolsOption.forEach(function(className) {
         tools.classList.add(className);
     });
 
     //  save btn
     var saveBtn = document.createElement('button');
-    var saveBtnClasses = [];
+    var saveBtnClasses = ['editor-btn'];
     saveBtnClasses.forEach(function(className) {
         saveBtn.classList.add(className);
     });
@@ -111,7 +119,7 @@ window.Editor = function() {
 
     // reomve btn 
     var removeBtn = document.createElement('button');
-    var removeBtnClasses = [];
+    var removeBtnClasses = ['editor-btn'];
     removeBtnClasses.forEach(function(className) {
         removeBtn.classList.add(className);
     });

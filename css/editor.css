@@ -1,0 +1,10 @@
+.editor-btn{
+	width: 40%;
+	border: 0;
+	height: 3.5rem;
+	padding: 0;
+	border-radius: 3px;
+	background: red;
+	margin: 5%;
+	color: #ffffff;
+}
